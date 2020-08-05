@@ -15,7 +15,7 @@ This is how to start the projcet locally:
 
  2. CD into project with `Git Bash` (*If On Windows!*)
   
- 3. Type -> bash vessel init and ./vessel start
+ 3. Type -> `bash vessel init` and  `./vessel start`
 
  4. Navigate to -> `localhost` 
 
