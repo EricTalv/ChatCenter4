@@ -79,19 +79,20 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    ChatCenter
+            <div id="app">
+                <div class="content">
+                    <div class="title m-b-md">
+                        ChatCenter
+                    </div>
+
+                    <div class="links">
+                        <a href="/worldchat">World Chat</a>
+                    </div>
                 </div>
-
-                <div class="links">
-                    <a href="/worldchat">World Chat</a>
-                <example-component></example-component>
-
-                </div>
-
             </div>
-
         </div>
+
+        <script src="{{ asset('js/app.js') }}"></script>    
+
     </body>
 </html>

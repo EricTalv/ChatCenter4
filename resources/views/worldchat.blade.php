@@ -6,6 +6,7 @@
     <title>Open World Chat</title>
 </head>
 <body>
-    <h1 class="bg">Welcome to Open World chat</h1>    
+    <h1 class="bg">Welcome to Open World chat</h1>   
+
 </body>
 </html>
