@@ -7,7 +7,7 @@
     </div>
 
     <div class="links">
-        <a href="/worldchat">World Chat</a>
+        <a href="{{'worldchat'}}">World Chat</a>
     </div>
 </div>
 @endsection
