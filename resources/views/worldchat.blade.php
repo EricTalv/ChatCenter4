@@ -1,5 +1,11 @@
 @extends('master')
 
 @section('content')
-    <a href="/"><h1 class="bg">Welcome to Open World chat</h1></a>
+    <div>
+        <div class="links">
+            <a href="{{'/'}}">Back</a>
+            <h4>Welcome chat</h4>
+
+        </div>
+    </div>
 @endsection
