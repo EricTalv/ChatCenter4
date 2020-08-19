@@ -4,7 +4,7 @@
         @include('partials.header')
     </head>
     <body>
-        <div class="container flex-center full-height">
+        <div class="container">
             <div id="app">
                 @yield('header')
                 @yield('content')

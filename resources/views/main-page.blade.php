@@ -1,11 +1,11 @@
 @extends('master')
 
 @section('content')
-<div class="content">
-    <div class="title m-b-md">
+<div>
+    <div>
         ChatCenter
     </div>
-    <div class="links">
+    <div>
         <a href="{{'worldchat'}}">World Chat</a>
     </div>
 </div>
