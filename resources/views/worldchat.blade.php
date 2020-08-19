@@ -2,18 +2,19 @@
 
 @section('content')
     <div>
-        <div class="">
+        <div class="pseudo-nav">
             <a href="{{'/'}}">Back</a>
+
+            <!-- TODO: -->
+            <!-- [ ] Add Nav Bar -->
+            <!-- [ ] Migrate to Design 1.0 -->
+
             <h4>World Chat</h4>
             <hr>
         </div>
 
         <div>
         
-        <div class="text-uppercase">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias architecto quia atque quae tenetur iste eius deserunt sunt doloribus tempore.</div>
-
-        </div>
 
     </div>
 @endsection

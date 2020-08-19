@@ -6,7 +6,7 @@
 <!-- Bootstrap -->
 <link rel="stylesheet" href="{{ asset('css/app.css')  }}">
 
-<!-- Styles Seda tuleks muuta kuna see halb -->
+<!-- This will override bootstraps values (i think) -->
 <style>
  
 </style>

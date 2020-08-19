@@ -2,11 +2,11 @@
 
 @section('content')
 <div class="content">
-    <div class="title m-b-md">
+    <div class="">
         ChatCenter
     </div>
 
-    <div class="links">
+    <div class="">
         <a href="{{'worldchat'}}">World Chat</a>
     </div>
 </div>
