@@ -1,12 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open World Chat</title>
-</head>
-<body>
-    <h1 class="bg">Welcome to Open World chat</h1>   
+@extends('master')
 
-</body>
-</html>
+@section('content')
+    <div>
+        <div class="pseudo-nav">
+            <a href="{{'/'}}">Back</a>
+
+            <!-- TODO: -->
+            <!-- [ ] Add Nav Bar -->
+            <!-- [ ] Migrate to Design 1.0 -->
+
+            <h4>World Chat</h4>
+            <hr>
+        </div>
+
+        <div>
+        
+
+    </div>
+@endsection

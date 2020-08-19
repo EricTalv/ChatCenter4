@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('main-page');
 });
 
-Route::get('worldchat', function () {
+Route::get('/worldchat', function () {
     return view('worldchat');
 });
