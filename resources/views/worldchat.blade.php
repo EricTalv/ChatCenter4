@@ -1,11 +1,12 @@
-@extends('master')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open World Chat</title>
+</head>
+<body>
+    <h1 class="bg">Welcome to Open World chat</h1>   
 
-@section('content')
-    <div>
-        <div class="links">
-            <a href="{{'/'}}">Back</a>
-            <h4>Welcome chat</h4>
-
-        </div>
-    </div>
-@endsection
+</body>
+</html>
