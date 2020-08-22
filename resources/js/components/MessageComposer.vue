@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <textarea class="w-100" v-model="message" @keydown.enter="send" placeholder="Message..."></textarea>
-    </div>
+    <textarea class="w-100" v-model="message" @keydown.enter="send" placeholder="Message..."></textarea>
 </template>
 
 <script>
@@ -13,8 +11,7 @@
             };
         },
         methods: {
-            send(e) {
-                e.preventDefault();
+            send() {
                 if (this.message === '') {
                     return;
                 }

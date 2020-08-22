@@ -19,8 +19,7 @@
                 </ul>
             </div>
                 <div class="btn-group w-100">
-                    <message-composer @send="sendMessage"></message-composer>
-                    <button type="button" class="btn btn-secondary btn-lg">Send</button>
+                    <message-composer></message-composer>
                 </div>
         </div>
     </div>
