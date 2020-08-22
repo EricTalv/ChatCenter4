@@ -15,10 +15,10 @@
         methods: {
             send(e) {
                 e.preventDefault();
-                if (this.message == '') {
+                if (this.message === '') {
                     return;
                 }
-
+                console.log(this.message);
                 this.$emit('send', this.message);
                 this.message = '';
             }
