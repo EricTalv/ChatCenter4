@@ -19,11 +19,21 @@
                 </ul>
             </div>
                 <div class="btn-group w-100">
-                    <textarea class="w-100"></textarea>
+                    <MessageComposer @send="sendMessage"></MessageComposer>
                     <button type="button" class="btn btn-secondary btn-lg">Send</button>
                 </div>
         </div>
-
     </div>
-
 @endsection
+
+<script>
+    import MessageComposer from "../js/components/MessageComposer";
+    export default {
+        components: {MessageComposer},
+        methods: {
+            sendMessage(text) {
+                console.log(text);
+            }
+        }
+    }
+</script>
