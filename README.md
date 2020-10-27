@@ -4,6 +4,7 @@ This will become an Omegle inspired website.
 
 ## TODO
 
+```
 [ ] Setup Projects page
 [ ] Set deadlines
 
@@ -11,9 +12,10 @@ This will become an Omegle inspired website.
     [ ] Simple design prototype
 
 [ ] Backend
+```
 
 ## System Architecture
-
+```
 **Backend**
 [ ] Laravel
 [ ] Laravel Echo
@@ -22,3 +24,4 @@ This will become an Omegle inspired website.
 **Frontend**
 [ ] Vue.js
 [ ] Bootstrap
+```
